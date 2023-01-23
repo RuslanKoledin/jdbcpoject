@@ -27,7 +27,7 @@ public class Students {
     //Выборка студентов с  в буквой А
     public void getStudentsName() {
         Students students = new Students();
-        String query = "select full_name from students where full_name like 'A%';";
+        String query = "select full_name from students where full_name like '%a%';";
         try {
             Statement statement = students.getConnection().createStatement();
             ResultSet resultSet = statement.executeQuery(query);
