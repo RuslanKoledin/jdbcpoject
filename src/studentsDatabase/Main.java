@@ -1,3 +1,5 @@
+package studentsDatabase;
+
 import java.sql.*;
 
 public class Main {
@@ -15,6 +17,8 @@ public class Main {
         students.getCountOfStudenets();
         System.out.println("сумма степендии всех студентов");
         students.getScholarshipsStudents();
+        System.out.println("студент добавлен!");
+        students.addStud();
 
 
 

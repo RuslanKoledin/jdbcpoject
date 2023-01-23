@@ -1,4 +1,5 @@
-import java.net.URL;
+package studentsDatabase;
+
 import java.sql.*;
 
 public class Students {
@@ -88,7 +89,6 @@ public class Students {
             throw new RuntimeException(e);
         }
     }
-
     //получение количества всех студентво
     public void getCountOfStudenets() {
         Students students1 = new Students();
@@ -105,18 +105,31 @@ public class Students {
         }
     }
     //суммах степендии всех студентов
-    public  void getScholarshipsStudents(){
+    public  void getScholarshipsStudents() {
         Students students = new Students();
         String query = "select sum(scholarships) as scholarships_students from students";
-        try{
+        try {
             Statement statement = students.getConnection().createStatement();
             ResultSet resultSet = statement.executeQuery(query);
 
-            while(resultSet.next()){
+            while (resultSet.next()) {
                 int scholarships = resultSet.getInt(1);
                 System.out.println(scholarships);
             }
         } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+        //добавление студента
+    public void addStud() {
+        Students students1 = new Students();
+        String update = "insert into students values (8,'Rus',19,3,800)";
+        try {
+            Statement statement2 = connection.createStatement();
+            statement2.executeUpdate(update);
+            System.out.println("Update is correct");
+        } catch (SQLException e) {
+            System.out.println("Error");
             throw new RuntimeException(e);
         }
     }
