@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64ca7615-d92e-4a58-bd23-4b2c2f066c20" name="Changes" comment="jdbc2" />
+    <list default="true" id="64ca7615-d92e-4a58-bd23-4b2c2f066c20" name="Changes" comment="добавил файл с командами">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +102,7 @@
       <workItem from="1674476071078" duration="3444000" />
       <workItem from="1674483899029" duration="8804000" />
       <workItem from="1674738772676" duration="3367000" />
-      <workItem from="1674824430767" duration="2898000" />
+      <workItem from="1674824430767" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="add new method">
       <created>1674484002803</created>
@@ -116,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674827107726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавил файл с командами">
+      <created>1674827374005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674827374005</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавил файл с командами">
+      <created>1674827395730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674827395730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new method" />
     <MESSAGE value="jdbc2" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc2" />
+    <MESSAGE value="добавил файл с командами" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил файл с командами" />
   </component>
 </project>
